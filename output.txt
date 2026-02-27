@@ -1,0 +1,108 @@
+==============================
+Linux Monitoring Scripts - Sample Outputs
+==============================
+
+
+1) disk_check.sh
+------------------------------
+$ ./disk_check.sh
+Disk usage is 24%
+Disk usage normal
+
+(If disk usage > 80%)
+$ ./disk_check.sh
+Disk usage is 85%
+WARNING: Disk usage high
+
+
+2) even_odd.sh
+------------------------------
+$ ./even_odd.sh
+Enter a number: 5
+The number is ODD
+
+$ ./even_odd.sh
+Enter a number: 8
+The number is EVEN
+
+
+3) file_check.sh
+------------------------------
+$ ./file_check.sh
+Enter filename: test.sh
+FILE EXISTS!
+
+$ ./file_check.sh
+Enter filename: random.txt
+FILE DOESN'T EXIST!
+
+
+4) greet.sh
+------------------------------
+$ ./greet.sh
+Hello John
+Hello Mike
+Hello Sara
+
+
+5) health_check.sh
+------------------------------
+$ ./health_check.sh
+Disk Usage       : 24%
+Available Memory : 1300MB
+SYSTEM STATUS    : HEALTHY
+
+
+6) loop.sh
+------------------------------
+$ ./loop.sh
+Enter the limit: 5
+1
+2
+3
+4
+5
+
+
+7) memory_check.sh
+------------------------------
+$ ./memory_check.sh
+Available memory: 1300MB
+Memory is sufficient.
+
+
+8) ping_check.sh
+------------------------------
+$ ./ping_check.sh
+8.8.8.8 is UP
+1.1.1.1 is UP
+github.com is UP
+invalidhost is DOWN or unreachable
+
+
+9) service_check.sh
+------------------------------
+$ ./service_check.sh
+Enter service name: sshd
+sshd service is RUNNING
+
+$ ./service_check.sh
+Enter service name: crond
+crond service is RUNNING
+
+
+10) sum.sh
+------------------------------
+$ ./sum.sh
+Enter the first number: 5
+Enter the second number: 7
+The sum of the two numbers is 12
+
+
+11) test.sh
+------------------------------
+$ ./test.sh
+Hello, This is my first shell script!
+Current user: ec2-user
+Current directory: /home/ec2-user/shell-practice
+Today's date: Sat Feb 21 07:03:45 AM UTC 2026
